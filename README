@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3214
+
+This plugins allows users to push presets (sets of |options|) onto a 
+configuration stack and remove them later on, i.e., it allows users to 
+quickly switch between pre-defined configurations (e.g. GUI-related 
+options).
+
+In order to push a preset, use the |:Preset| command:
+
+    :Preset! NAME
+
+Full docs:
+http://github.com/tomtom/presets_vim/blob/master/doc/presets.txt
